@@ -100,9 +100,10 @@ export default class VideoPlayer extends Component {
         this.videoPlayer.seek(newTime);
 
     }
-    onLayout(e) {
-        const { width, height } = Dimensions.get('window')
-    }
+    
+    // onLayout(e) {
+    //     const { width, height } = Dimensions.get('window')
+    // }
 
     goBack = () => {
         this.props.navigation.goBack();
